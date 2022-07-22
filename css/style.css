@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Aria-Regularl.woff2") format("woff2"), url("../fonts/Aria-Regularl.woff") format("woff");
+}
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Arial-Bold.woff2") format("woff2"), url("../fonts/Arial-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Helvetica-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Helvetica-Regular.woff2") format("woff2"), url("../fonts/Helvetica-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+}
+.page-body {
+  font-family: "Helvetica-Regular", sans-serif;  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155.69%;
+  color: #3E4857;
+  background-color: #ffffff;
+}
+.bs-preview {
+  background: #040013;
+  background: -moz-linear-gradient(left,  #040013 0%, #42063F 50%, #3A047D 100%);
+  background: -webkit-linear-gradient(left,  #040013 0%,#42063F 50%,#3A047D 100%);
+  background: linear-gradient(to right,  #040013 0%,#42063F 50%,#3A047D 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040013', endColorstr='#3A047D',GradientType=1 );
+  margin-top: -15px;
+}
+.bs-text-content {
+  margin-top: 138px;
+}
+.bs-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 69px;
+  background-color: #f1f1f1;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.bs-title {
+  font-family: "Arial-Bold", sans-serif; 
+}
+.btn-bs {
+  font-family: "Roboto-Regular", sans-serif; 
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: #67AC5B;
+}
+.bs-subtitle {
+  font-family: "Arial-Bold", sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 155.69%;
+}
+.bs-preview-picture {
+  margin-top: 100px;
+}
+.question {
+  background-color: #e5e5e5; 
+}
+.accordion-button:not(.collapsed) {
+  color: red;
+  background-color: #fff;
+}
+.accordion-item {
+  border: none;
+}
+.accordion-header {
+  border-bottom: 1px solid #c9c9c9;
+}
+.accordion-button,
+.show  {
+  padding-left: 0;
+  color: #3E4857;
+  font-family: "Arial-Regular", sans-serif; 
+}
